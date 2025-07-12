@@ -1,0 +1,6 @@
+:root{
+    --hover-color: #767676;
+}
+nav a:hover{
+    color: var(--hover-color);
+}
