@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
-        <footer className="bg-black p-4 justify-center ">
-            <h1 className="text-white text-center">TOGKF</h1>
+        <footer className="nav-bg-dark-blue p-4 justify-center ">
+            <h1 className="nav-text-white-no-hover text-2xl text-center">TOGKF</h1>
         </footer>
     )
 }

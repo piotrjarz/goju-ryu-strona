@@ -3,6 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+
+}
+
+@theme{
+  --dark-blue: #1B3C53;
+  --blue: #456882;
+  --white: #F9F3EF;
 }
 
 @theme inline {
@@ -23,4 +31,34 @@ body {
   .animate-dropdown{
     @apply scale-100 opacity-100;
   }
+}
+
+@layer colors{
+  .nav-bg-dark-blue,
+  .site-text-dark-blue{
+    background-color: var(--dark-blue);
+  }
+
+
+  .site-bg-white{
+    background-color: var(--white);
+  }
+
+  .nav-text-white{
+    color: var(--white);
+  }
+
+  .nav-text-white-no-hover{
+    color: var(--white);
+  }
+
+  .nav-text-white:hover{
+    color: var(--blue);
+  }
+
+  .header-text-blue{
+    color: var(--blue);
+  }
+
+
 }

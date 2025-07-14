@@ -5,13 +5,14 @@ import Nav from "./nav";
 import Link from "next/link";
 import { GojuRyuDropdownOptions } from "@/data/variables/var_dropdown_options";
 import DropDown from "./nav_dropdown";
+import MottoImage from "./MottoImage";
 
 export default function Header(){
     const [menuOpen, setMenuOpen] = useState(false);
     return(
-        <header className="bg-gray-950 text-white sticky top-0 m-0">
+        <header className="nav-bg-dark-blue sticky top-0 m-0 z-40">
             <div className="mx-auto max-w-7x1 px-4 flex justify-between items-center">
-                <h1 className="text-xl font-bold">Goju-ryu Karate</h1>
+                <h1 className="text-xl nav-text-white-no-hover font-bold">Goju-ryu Karate</h1>
 
                 <button
                     onClick={() => setMenuOpen(!menuOpen)}
@@ -36,10 +37,17 @@ export default function Header(){
                 {menuOpen && (
                     <div className="md:hidden px-4 pb-4">
                         <nav className="flex flex-col space-y-2">
-                            <Link href='/' onClick={() => setMenuOpen(false)}>Strona główna</Link>
+                            <Link className="nav-text-white" href='/' onClick={() => setMenuOpen(false)}>Strona główna</Link>
+
                             <Link href='/o-nas' onClick={() => setMenuOpen(false)}>O nas</Link>
-                            <Link href='/kontakt' onClick={() => setMenuOpen(false)}>Kontakt</Link>
-                            <Link href='/treningi' onClick={() => setMenuOpen(false)}>Treningi</Link>
+
+
+                            <Link className="nav-text-white" href='/kontakt' onClick={() => setMenuOpen(false)}>Kontakt</Link>
+
+
+                            <Link className="nav-text-white" href='/treningi' onClick={() => setMenuOpen(false)}>Treningi</Link>
+
+
                             <DropDown label="Goju-ryu" options={ GojuRyuDropdownOptions }/>  
                         </nav>
                     </div>
