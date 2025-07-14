@@ -1,0 +1,50 @@
+'use client'
+
+import { useState } from "react"
+import Nav from "./nav";
+import Link from "next/link";
+import { GojuRyuDropdownOptions } from "@/data/variables/var_dropdown_options";
+import DropDown from "./nav_dropdown";
+
+export default function Header(){
+    const [menuOpen, setMenuOpen] = useState(false);
+    return(
+        <header className="bg-gray-950 text-white sticky top-0 m-0">
+            <div className="mx-auto max-w-7x1 px-4 flex justify-between items-center">
+                <h1 className="text-xl font-bold">Goju-ryu Karate</h1>
+
+                <button
+                    onClick={() => setMenuOpen(!menuOpen)}
+                    className="md:hidden focus:outline-none"
+                    aria-label="Toggle menu"
+                >
+                    <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        {menuOpen ? (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        ) : (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                        )}
+                    </svg>
+                </button>
+                <Nav/>
+                {menuOpen && (
+                    <div className="md:hidden px-4 pb-4">
+                        <nav className="flex flex-col space-y-2">
+                            <Link href='/' onClick={() => setMenuOpen(false)}>Strona główna</Link>
+                            <Link href='/o-nas' onClick={() => setMenuOpen(false)}>O nas</Link>
+                            <Link href='/kontakt' onClick={() => setMenuOpen(false)}>Kontakt</Link>
+                            <Link href='/treningi' onClick={() => setMenuOpen(false)}>Treningi</Link>
+                            <DropDown label="Goju-ryu" options={ GojuRyuDropdownOptions }/>  
+                        </nav>
+                    </div>
+                )}
+            </div>
+        </header>
+    )
+}

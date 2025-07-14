@@ -18,3 +18,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities{
+  .animate-dropdown{
+    @apply scale-100 opacity-100;
+  }
+}

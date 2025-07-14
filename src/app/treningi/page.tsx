@@ -1,3 +1,5 @@
+'use client'
+
 import { trainings } from "@/data/variables/var_training"
 
 export default function Treningi(){
