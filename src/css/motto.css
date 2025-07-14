@@ -1,0 +1,11 @@
+@layer motto{
+    .motto-bg{
+        background-image: url('../../public/motto/background.png');
+        background-repeat: no-repeat;
+        background-position: center middle;
+        background-attachment: fixed;
+        background-color: #00000088;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+}

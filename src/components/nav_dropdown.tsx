@@ -6,12 +6,14 @@ import { useEffect, useRef, useState } from "react"
 
 type DropDownProps = {
     label: string,
+    className? : string,
     options: DropdownOption[]
 }
 
 export default function DropDown(
     { 
         label,
+        className,
         options
 
     } : DropDownProps
@@ -36,7 +38,7 @@ export default function DropDown(
         <div ref={dropdownRef} className="relative inline-block text-left m-1">
             <button 
                 onClick={() => setOpen(!open)}
-                className="px-4 py-2 rounded transition">
+                className={`px-4 py-2 rounded transition ${className}`}>
                     {label}
             </button>
            
