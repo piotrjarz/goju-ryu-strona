@@ -1,11 +1,11 @@
 import Article from "./Article";
 import { Instructor } from "../types/instructor";
 
-class ONas extends Article{
+class AboutUs extends Article{
     instructors : Instructor[] = []
 }
 
-const ONasArticle : ONas = {
+const AboutUs_ArtData : AboutUs = {
     title: "Kilka słów o nas...",
     content: [
         "Jesteśmy młodym i dynamicznie rozwijającym się klubem na Podlasiu.",
@@ -22,4 +22,4 @@ const ONasArticle : ONas = {
     ]
 }
 
-export default ONasArticle;
+export default AboutUs_ArtData;
