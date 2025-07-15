@@ -1,16 +1,16 @@
 'use client'
 
-import ONasArticle from "@/data/articles/O_NasArticle";
+import AboutUs_ArtData from "@/data/articles/ArtData_AboutUs";
 
-export default function Art_ONas(){
+export default function AboutUs_Art(){
     return(
         <div className="text-center">
-            <h1 className="text-3xl font-semibold header-text-blue">{ONasArticle.title}</h1>
-            {ONasArticle.content.map(line => (
+            <h1 className="text-3xl font-semibold header-text-blue">{AboutUs_ArtData.title}</h1>
+            {AboutUs_ArtData.content.map(line => (
                 <p key={line}>{line}</p>
             ))}
             <h1 className="text-3xl font-semibold header-text-blue">Nasi instruktorzy</h1>
-            {ONasArticle.instructors.map(instructor => (
+            {AboutUs_ArtData.instructors.map(instructor => (
                 <div key={instructor.name}>
                     <p><b>{instructor.name} {instructor.surname} - {instructor.grade}</b></p>
                     <p>{instructor.summary}</p>

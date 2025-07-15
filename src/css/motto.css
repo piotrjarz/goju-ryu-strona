@@ -2,7 +2,7 @@
     .motto-bg{
         background-image: url('../../public/motto/background.png');
         background-repeat: no-repeat;
-        background-position: center middle;
+        background-position: center 50%;
         background-attachment: fixed;
         background-color: #00000088;
         background-blend-mode: darken;

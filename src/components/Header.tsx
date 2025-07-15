@@ -20,8 +20,8 @@ export default function Header(){
                     aria-label="Toggle menu"
                 >
                     <svg
-                        className="w-6 h-6"
-                        fill="none"
+                        className="w-8 h-8"
+                        fill="white"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ export default function Header(){
                         <nav className="flex flex-col space-y-2">
                             <Link className="nav-text-white" href='/' onClick={() => setMenuOpen(false)}>Strona główna</Link>
 
-                            <Link href='/o-nas' onClick={() => setMenuOpen(false)}>O nas</Link>
+                            <Link className="nav-text-white" href='/o-nas' onClick={() => setMenuOpen(false)}>O nas</Link>
 
 
                             <Link className="nav-text-white" href='/kontakt' onClick={() => setMenuOpen(false)}>Kontakt</Link>
@@ -48,7 +48,7 @@ export default function Header(){
                             <Link className="nav-text-white" href='/treningi' onClick={() => setMenuOpen(false)}>Treningi</Link>
 
 
-                            <DropDown label="Goju-ryu" options={ GojuRyuDropdownOptions }/>  
+                            <DropDown className="nav-text-white" label="Goju-ryu" options={ GojuRyuDropdownOptions }/>  
                         </nav>
                     </div>
                 )}
