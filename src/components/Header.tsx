@@ -20,7 +20,7 @@ export default function Header(){
                     aria-label="Toggle menu"
                 >
                     <svg
-                        className="w-8 h-8"
+                        className="w-6 h-6"
                         fill="white"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
