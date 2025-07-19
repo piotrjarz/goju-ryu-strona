@@ -41,6 +41,9 @@ const training_course : ITrainingCourse = {
     main_part_header: "Trening - część główna",
     main_part_content: "Część główna treningu. To w niej właśnie ćwiczymy technikę, kata, bunkai oraz sparujemy. Ćwiczymy bloki, uderzenia, kopnięcia, dźwignie, rzuty, obalenia, podcięcia oraz poprawiamy kondycję. Stosujemy techniki w formie kihon bunkai (zastosowania podstawowe) oraz oyo bunkai (zastosowania własne), a także w elementach walki sportowej i samoobrony. Podnosimy swój poziom z każdym treningiem.",
     
+    cooldown_header: "Wyciszenie i rozciąganie",
+    cooldown_content: "Pod koniec treningu rozciągamy się i stosujemy techniki wyciszające - np. głębokie oddychanie - oraz ćwiczenia na mobilność w stawach. Dzięki temu z każdym treningiem nasze rozciągnięcie i technika polepsza się.",
+
     end_header: "Ceremonia zakończenia",
     end_commands: [
         {

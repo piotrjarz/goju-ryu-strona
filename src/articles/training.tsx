@@ -25,6 +25,11 @@ export default function Training_Art(){
                 <h2 className="text-3xl font-semibold header-text-blue">{training_course.main_part_header}</h2>
                 <p className="text-justify max-w-6xl mx-auto">{training_course.main_part_content}</p>
             </section>
+                        
+            <section className="p-5">
+                <h2 className="text-3xl font-semibold header-text-blue">{training_course.cooldown_header}</h2>
+                <p className="text-justify max-w-6xl mx-auto">{training_course.cooldown_content}</p>
+            </section>
 
             <section className="p-5">
                 <h2 className="text-3xl font-semibold header-text-blue">{training_course.end_header}</h2>
