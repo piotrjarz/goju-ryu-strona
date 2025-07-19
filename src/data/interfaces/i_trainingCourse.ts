@@ -12,6 +12,10 @@ interface ITrainingCourse{
     main_part_header : string,
     main_part_content : string,
 
+    // Wyciszenie i rozciąganie
+    cooldown_header : string,
+    cooldown_content : string,
+
     // Ceremonia zakończenia
     end_header : string
     end_commands : CeremonyCommand[]
