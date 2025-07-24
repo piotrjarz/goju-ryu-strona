@@ -27,7 +27,7 @@ export default function GojuRyu(){
                 <section className="my-5">
                     <article>
                         <h2 className="text-2xl font-semibold">Sensei Kanryo Higaonna</h2>
-                        <img className="mx-auto" src={`https://togkf-polska.pl/wp-content/uploads/2023/04/Sensei-Kanryo-Higaonna-2.jpg`} width={165} height={200}/>
+                        <img loading="lazy" className="mx-auto" src={`https://togkf-polska.pl/wp-content/uploads/2023/04/Sensei-Kanryo-Higaonna-2.jpg`} width={165} height={200}/>
                         <article className="text-justify mx-auto max-w-7xl my-3">
                             Urodził się w Naha na Okinawie. W wieku 14 lat zaczął ćwiczyć Chińskie kempo. Po kilkunastu latach treningów Kanryo udaje się do Fuzhou i zostaje uczniem Ryu Ryuko ucząc się stylu Białego Żurawia. Ryu Ryuko był mistrzem południowego Shaolin. Z tego okresu pochodzą ćwiczone do dziś kata: Sanchin, Saifa, Seiyunchin, Shisochin, Sanseru, Sepai, Kururunfa, Sesan i Sunparinpei. Higaonna w Chinach przebywał kilkanaście lat. Nazwano go „Aschi no Higaonna” z powodu bardzo silnych nóg. Sanchin kata oraz ćwiczenia Hojo Undo stanowiły fundament treningu. Po powrocie na Okinawę Higaonna uczył sztuki walki w szkołach publicznych jak i również udzielał lekcji prywatnych. Głównymi jego uczniami był: Taizo Tabara, Reishu Sakima, Chogi Yoshimura, Soke Ura, Juhatsu Kyoda, Seibun Nakamoto, Seko Higa, Kenwa Mabuni i <b>Chojun Miyagi</b>. Ten ostatni stał się spadkobiercą, tylko jemu przekazał całość swej wiedzy, ucząc go aż do swej śmierci. 
                         </article>
@@ -36,7 +36,7 @@ export default function GojuRyu(){
 
                     <article>
                         <h2 className="text-2xl font-semibold">Sensei Chojun Miyagi</h2>
-                        <img className="mx-auto" src={`https://togkf-polska.pl/wp-content/uploads/2023/05/Sensei-Chojun-Miyagi-235x300.jpg`} width={165} height={200}/>
+                        <img loading="lazy" className="mx-auto" src={`https://togkf-polska.pl/wp-content/uploads/2023/05/Sensei-Chojun-Miyagi-235x300.jpg`} width={165} height={200}/>
                         <article className="text-justify mx-auto max-w-7xl my-3">
                             Urodził się 25 kwietnia w Higashi Machi – Naha. Gdy miał 11 lat matka zaprowadziła go do mistrza karate Ryuko Aragaki. W wieku 14 lat został uczniem Kanryo Higaonna. Po śmierci swego nauczyciela pojechał do Fuzhou, gdzie spotkał starego ucznia Ryu Ryuko i odnalazł miejsce, które stało się Dojo mistrza. Po powrocie z Chin zaczął nauczać karate. W 1940 r. wprowadził do karate kata Gekisai Dai Ichi i Ni. Wcześniej, jako wynik jego studiów nad kata Rokkishu ze stylu Białego Żurawia, powstało kata Tensho. Jest on także autorem zmiany kata Sanchin. W 1926 r. Chojun Miyagi założył klub karate Kenkyo. W klubie tym oprócz niego uczyli tacy mistrzowie jak: Kenwa Mabuni oraz Choki Motobu i Chomo Hanashiro. Chojun Miyagi całą wiedzę o Goju-Ryu chciał przekazać swojemu najbardziej pojętemu uczniowi Jin’an Shinzato, ale ten zginął podczas wojny. I tak następcą i sukcesorem stylu został <b>An’ichi Miyagi.</b>
                         </article>
@@ -44,7 +44,7 @@ export default function GojuRyu(){
 
                     <article>
                         <h2 className="text-2xl font-semibold">Sensei An'ichi Miyagi</h2>
-                        <img className="mx-auto" src={`https://togkf-polska.pl/wp-content/uploads/2023/04/Sensei-Anichi-Miyagi.jpg`} width={165} height={200}/>
+                        <img loading="lazy" className="mx-auto" src={`https://togkf-polska.pl/wp-content/uploads/2023/04/Sensei-Anichi-Miyagi.jpg`} width={165} height={200}/>
 
                         <article className="text-justify mx-auto max-w-7xl my-3">
                             Urodził się 9 lutego 1931 r. w Naha. 1 lutego 1948 r. mając 17 lat rozpoczął treningi w ogrodowym Dojo Chojun Miyagi. Uczył się nie tylko technik Goju-Ryu, ale też historii sztuki walki. Mistrz poddawał go wielu próbom, obserwując jego osobowość. Sensei An’ichi Miyagi ciągle ćwiczy i naucza karate. 1979 r. został wybrany na honorowego przewodniczącego IOGKF. Miał tylko jednego prawdziwego ucznia, któremu mógł przekazać całą wiedzę. Jest nim <b>Morio Higaonna</b>. Sensei An’ichi Miyagi zmarł 28 kwietnia 2009 r.
@@ -54,7 +54,7 @@ export default function GojuRyu(){
 
                     <article>
                         <h2 className="text-2xl font-semibold">Sensei Morio Higaonna</h2>
-                        <img className="mx-auto" src={`https://togkf-polska.pl/wp-content/uploads/2023/04/Sensei-Morio-Higaonna-2.jpg`} width={165} height={200}/>
+                        <img loading="lazy" className="mx-auto" src={`https://togkf-polska.pl/wp-content/uploads/2023/04/Sensei-Morio-Higaonna-2.jpg`} width={165} height={200}/>
 
                         <section className="text-justify mx-auto max-w-7xl">
                             <article className="my-3">
