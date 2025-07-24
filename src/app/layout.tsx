@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <Header/>
           <MottoImage/>
-          <div className="items-center justify-items-center min-h-screen site-bg-white m-0 p-0">
+          <div className="items-center justify-items-center min-h-screen site-bg-white m-0 p-0 text-lg">
             {children}  
           </div>
           <MottoImage label={null} />
