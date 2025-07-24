@@ -33,6 +33,14 @@ export default function Nav(){
                 href="/treningi">Treningi
             </Link>
 
+            <Link
+                className="m-3 transition nav-text-white"
+                prefetch={true}
+                target="_blank"
+                href="https://togkf-polska.pl/?page_id=1301">
+                    Egzaminy
+            </Link>
+
             <DropDown className="nav-text-white" label="Goju-ryu" options={ GojuRyuDropdownOptions }/>            
         </nav>
         </div>

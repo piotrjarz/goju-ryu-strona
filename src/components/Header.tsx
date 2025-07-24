@@ -12,7 +12,12 @@ export default function Header(){
     return(
         <header className="nav-bg-dark-blue sticky top-0 m-0 z-40">
             <div className="mx-auto max-w-7x1 px-4 flex justify-between items-center">
-                <h1 className="text-xl nav-text-white-no-hover font-bold">Goju-ryu Karate</h1>
+                <div>
+                    <a href="/" className="md:flex items-center align-middle">
+                        <img className="max-w-full h-auto" src={`/images/logo_karate.png`} loading="lazy" width={120}/>
+                        <h1 className="text-lg md:text-xl nav-text-white-no-hover font-bold">Klub Karate Goju-ryu Księżyno</h1>
+                    </a>
+                </div>
 
                 <button
                     onClick={() => setMenuOpen(!menuOpen)}
@@ -46,6 +51,8 @@ export default function Header(){
 
 
                             <Link className="nav-text-white" href='/treningi' onClick={() => setMenuOpen(false)}>Treningi</Link>
+
+                            <Link className="nav-text-white" href="https://togkf-polska.pl/?page_id=1301" target="_blank" onClick={() => setMenuOpen(false)}>Egzaminy</Link>
 
 
                             <DropDown className="nav-text-white" label="Goju-ryu" options={ GojuRyuDropdownOptions }/>  
