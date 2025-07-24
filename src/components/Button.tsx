@@ -19,7 +19,7 @@ export default function Button({
             className={
                 className ? 
                     className : 
-                    "bg-amber-300 hover:bg-amber-700 nav-text-white-no-hover font-bold py-2 px-4 rounded-full text-xl"
+                    "bg-amber-300 hover:bg-amber-700 font-bold py-2 px-4 rounded-full text-xl cursor-pointer text-gray-950 hover:text-white"
             }
             onClick={() => action}
             >

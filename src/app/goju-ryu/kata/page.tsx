@@ -14,8 +14,8 @@ export default function Kata(){
                     </ul>
                 </article>
 
-                <article className="relative overflow-x-auto my-3">
-                    <table className="text-justify w-10/12 mx-auto">
+                <article className="w-full overflow-x-auto">
+                    <table className="min-w-full text-sm md:text-lg text-left border">
                         <thead>
                             <tr className="text-center border">
                                 <th>L.p.</th>
@@ -29,7 +29,7 @@ export default function Kata(){
                         <tbody className="px-3 py-2">
                             {all_kata_list.map( kata => (
                                 <tr key={index} className="border-0 my-2">
-                                    <td className="font-semibold">{index++}.</td>
+                                    <td className="font-semibold">{++index}.</td>
                                     <td>{kata.kata.name}</td>
                                     <td>{kata.kata.translation}</td>
                                     <td>{kata.kata.type}</td>
