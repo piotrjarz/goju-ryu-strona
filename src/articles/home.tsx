@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import Image from "next/image";
 
 export default function Home_Art(){
     return(
@@ -10,7 +11,7 @@ export default function Home_Art(){
             </p>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 py-10 max-w-6xl mx-auto">
-                <img
+                <Image
                 className="p-3 max-w-full h-auto rounded-4xl"
                 src={`/images/karate_kid.jpg`}
                 loading="lazy"
@@ -29,7 +30,7 @@ export default function Home_Art(){
                 </h1>
 
                 <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-6 py-10 max-w-6xl mx-auto">
-                    <img
+                    <Image
                         className="p-3 max-w-full h-auto rounded-4xl"
                         src={`/images/karate_practice.jpg`}
                         loading="lazy"
@@ -45,7 +46,7 @@ export default function Home_Art(){
                 </div>
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6 py-10 max-w-6xl mx-auto">
-                    <img
+                    <Image
                         className="p-3 max-w-full h-auto rounded-4xl"
                         src={`/images/morio_higaonna.jpg`}
                         loading="lazy"

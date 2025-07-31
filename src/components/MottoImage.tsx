@@ -17,7 +17,6 @@ interface IMottoImageProps{
 export default function MottoImage(
     {
         label,
-        className,
         mottoBgClass
     } : IMottoImageProps
 ){

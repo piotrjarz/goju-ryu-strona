@@ -1,3 +1,13 @@
+interface IContactInfo{
+    phone       :   string | string[],
+    email?      :   string,
+    nip?        :   string,
+    krs?        :   string,
+    address     :   string,
+    message?    :   string,
+    company?    :   string,
+}
+
 const contact_info : IContactInfo = {
     phone       :       "+48 693 593 545 / +48 504 898 001",
     address     :       "ul. Alberta 11a, 16-001 Księżyno",
