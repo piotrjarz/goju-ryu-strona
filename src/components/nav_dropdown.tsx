@@ -3,18 +3,21 @@
 import { DropdownOption } from "@/data/types/dropdown_option"
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
+import { ChevronDown, ChevronUp } from "lucide-react"
 
 type DropDownProps = {
     label: string,
     className? : string,
-    options: DropdownOption[]
+    options: DropdownOption[],
+    onClick? :  React.MouseEventHandler<HTMLAnchorElement>;
 }
 
 export default function DropDown(
     { 
         label,
         className,
-        options
+        options,
+        onClick,
 
     } : DropDownProps
 ){
@@ -35,15 +38,17 @@ export default function DropDown(
     }, []);
 
     return(
-        <div ref={dropdownRef} className="relative inline-block text-left m-1">
+        <div ref={dropdownRef} className="relative inline-block text-left md:m-1">
             <button 
                 onClick={() => setOpen(!open)}
-                className={`md:px-4 md:py-2 rounded transition ${className}`}>
-                    {label}
+                className={`md:py-2 rounded transition ${className}`}>
+                    <span className="inline-flex">
+                        {label} {open ? (<ChevronUp className="h-5 w-5 m-auto" />) : (<ChevronDown className="h-5 w-5 m-auto" />)}
+                    </span>
             </button>
            
            {open && (
-            <div className="absolute z-10 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg transition ease-out duration-200 transform scale-95 opacity-0 animate-dropdown">
+            <div className="absolute z-10 mr-4 mt-2 w-32 sm:w-28 md:32 bg-white border border-gray-200 rounded shadow-lg transition ease-out duration-200 transform scale-95 opacity-0 animate-dropdown">
                 <ul className="py-1">
                     {options.map(option => (
                         <li 
@@ -52,8 +57,12 @@ export default function DropDown(
                             <Link 
                                 href={option.href}
                                 prefetch={true}
+                                target={option.target}
                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                                onClick={() => setOpen(false)}
+                                onClick={(e) => {
+                                    onClick?.(e);
+                                    setOpen(false);
+                                }}
                             >
                                 {option.label}
                             </Link>

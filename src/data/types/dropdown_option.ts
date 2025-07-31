@@ -1,4 +1,5 @@
 export type DropdownOption = {
     label: string,
-    href: string
+    href: string,
+    target? : string,
 }

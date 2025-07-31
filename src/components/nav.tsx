@@ -1,7 +1,7 @@
 import Link from "next/link"
 import DropDown from "./nav_dropdown"
 
-import { GojuRyuDropdownOptions } from "@/data/variables/var_dropdown_options"
+import { GojuRyuDropdownOptions, AboutClubDropdownOptions } from "@/data/variables/var_dropdown_options"
 
 export default function Nav(){
     return(
@@ -13,24 +13,35 @@ export default function Nav(){
                 href="/">Strona główna
             </Link>
 
-            <Link 
+            {/* <Link 
                 className="m-3 transition nav-text-white"
                 prefetch={true}
                 href="/o-nas">O nas
-            </Link>
+            </Link> */}
+            <DropDown 
+                label="Klub"
+                options={AboutClubDropdownOptions}
+                className="nav-text-white"
+            />
 
-
+{/* 
             <Link 
                 className="m-3 transition nav-text-white"
                 prefetch={true}
                 href="/kontakt">Kontakt
-            </Link>
+            </Link> */}
 
 
             <Link 
                 className="m-3 transition nav-text-white"
                 prefetch={true}
                 href="/treningi">Treningi
+            </Link>
+
+            <Link
+                className="m-3 transition nav-text-white"
+                prefetch={true}
+                href="/pytania">Pytania
             </Link>
 
             <Link

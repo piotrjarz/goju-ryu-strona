@@ -5,4 +5,5 @@ interface IContactInfo{
     krs?        :   string,
     address     :   string,
     message?    :   string,
+    company?    :   string,
 }
