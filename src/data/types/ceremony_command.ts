@@ -1,4 +1,4 @@
-type CeremonyCommand = {
+export type CeremonyCommand = {
     command : string,
     description? : string
 }

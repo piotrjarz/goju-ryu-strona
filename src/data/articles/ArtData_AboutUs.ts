@@ -1,5 +1,4 @@
 import Article from "./Article";
-import { Instructor } from "../types/instructor";
 
 class AboutUs extends Article{
     content: string[] = [];
