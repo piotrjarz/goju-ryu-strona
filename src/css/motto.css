@@ -1,6 +1,6 @@
 @layer motto{
     .motto-bg{
-        background-image: url('../../public/motto/background.png');
+        background-image: url('../../public/images/okinawa.png');
         background-repeat: no-repeat;
         background-position: center 50%;
         background-attachment: fixed;

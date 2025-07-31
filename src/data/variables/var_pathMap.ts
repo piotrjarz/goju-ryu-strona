@@ -6,6 +6,8 @@ pathMap.set("/goju-ryu", "O stylu");
 pathMap.set("/goju-ryu/kata", "Kata");
 pathMap.set("/kontakt", "Kontakt");
 pathMap.set("/o-nas", "O nas");
+pathMap.set("/pytania", "Pytania i odpowiedzi");
+pathMap.set("/regulamin", "Regulamin");
 pathMap.set("/treningi", "Treningi");
 
 export default pathMap;

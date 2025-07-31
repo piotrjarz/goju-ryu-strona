@@ -6,3 +6,10 @@ export const GojuRyuDropdownOptions : DropdownOption[] =
     { label: "Kata", href: "/goju-ryu/kata" },
     { label: "TOGKF Polska", href: "https://togkf-polska.pl/" },
 ]
+
+export const AboutClubDropdownOptions : DropdownOption[] = 
+[
+    { label: "O nas", href: "/o-nas"},
+    { label: "Kontakt", href: "/kontakt"},
+    { label: "Regulamin", href: "/regulamin" },
+]
