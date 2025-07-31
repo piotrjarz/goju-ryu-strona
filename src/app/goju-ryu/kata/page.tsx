@@ -15,35 +15,17 @@ export default function Kata(){
                 </article>
 
                 <article className="w-full overflow-x-auto">
-                    <table className="min-w-full text-sm md:text-lg text-left border">
-                        <thead>
-                            <tr className="text-center border">
-                                <th>L.p.</th>
-                                <th>Nazwa kata</th>
-                                <th>Znaczenie</th>
-                                <th>Typ</th>
-                                <th>Film - wykonanie</th>
-                                <th>Film - zastosowania (bunkai)</th>
-                            </tr>
-                        </thead>
-                        <tbody className="px-3 py-2">
-                            {all_kata_list.map( kata => (
-                                <tr key={index} className="border-0 my-2">
-                                    <td className="font-semibold">{++index}.</td>
-                                    <td>{kata.kata.name}</td>
-                                    <td>{kata.kata.translation}</td>
-                                    <td>{kata.kata.type}</td>
-                                    <td><a href={kata.movie} target="_blank" className="header-text-blue">{kata.kata.name}</a></td>
-                                    <td>
-                                        {(kata.movie_bunkai !== undefined) ? (
-                                        <a href={kata.movie_bunkai} target="_blank" className="header-text-blue">{kata.kata.name} - bunkai</a>
-                                        ) : (<p className="text-center"> - </p>)}
-
-                                    </td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
+                    {all_kata_list.map(kata => (
+                        <article className="block max-w-6xl p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 my-7" key={index}>
+                            <h5 className="font-semibold text-xl">{++index}. {kata.header}</h5>
+                            <div className="text-justify">
+                                <p>Tłumaczy się na - {kata.kata.translation}</p>
+                                <p>Typ: {kata.kata.type}</p>
+                                <p className="header-text-blue"><a href={kata.movie} target="_blank">Film - wykonanie</a></p>
+                                <p className="header-text-blue"><a href={kata.movie_bunkai} target="_blank">Film - zastosowanie</a></p>
+                            </div>
+                        </article>
+                    ))}
                 </article>
 
                 <article className="my-10">
