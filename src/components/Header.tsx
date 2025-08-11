@@ -58,6 +58,8 @@ export default function Header(){
                                 onClick={()=>setMenuOpen(false)}
                                 options={ GojuRyuDropdownOptions }
                             />  
+
+                            <Link className="nav-text-white" href="/kontakt" onClick={() => setMenuOpen(false)}>Kontakt</Link>
                         </nav>
                     </div>
                 )}
