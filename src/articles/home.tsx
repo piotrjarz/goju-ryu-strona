@@ -14,11 +14,15 @@ export default function Home_Art(){
                 <Image
                 className="p-3 max-w-full h-auto rounded-4xl"
                 src={`/images/karate_kid.jpg`}
+                height={640}
+                width={427}
                 loading="lazy"
                 alt="Karate dojo"
                 />
                 <p className="p-3 text-lg text-center md:text-justify">
                 Jesteśmy częścią organizacji Traditional Okinawan Goju-ryu Karate-do Federation (TOGKF), która kultywuje autentyczną wartość i techniki okinawskiego karate.
+                <br />
+                Ćwiczymy w Białymstoku i okolicach!
                 <br />
                 Niezależnie od wieku czy poziomu zaawansowania – znajdziesz tu miejsce dla siebie.
                 </p>
@@ -33,6 +37,8 @@ export default function Home_Art(){
                     <Image
                         className="p-3 max-w-full h-auto rounded-4xl"
                         src={`/images/karate_practice.jpg`}
+                        height={640}
+                        width={427}
                         loading="lazy"
                         alt="Karate mistrz"
                     />
@@ -59,7 +65,7 @@ export default function Home_Art(){
                             Dlaczego warto?
                         </h1>
                         <p className="p-3 text-lg text-center md:text-justify">
-                            Tradycyjne karate goju-ryu można ćwiczyć w każdym wieku. Hanshi Morio Higaonna (na zdjęciu) ma 86 lat i dalej jest sprawny. Pomagamy zadbać o zdrowie, sprawność oraz mobilność w każdym wieku bez względu na stopień zaawansowania.
+                            Tradycyjne karate goju-ryu można ćwiczyć w każdym wieku. Sensei Morio Higaonna (na zdjęciu) ma 86 lat i dalej jest sprawny. Pomagamy zadbać o zdrowie, sprawność oraz mobilność w każdym wieku bez względu na stopień zaawansowania.
                         </p>
                         <Button label="Dołącz do nas!" href="/kontakt"/>
                     </div>

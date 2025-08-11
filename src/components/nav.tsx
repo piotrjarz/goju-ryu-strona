@@ -52,7 +52,15 @@ export default function Nav(){
                     Egzaminy
             </Link>
 
-            <DropDown className="nav-text-white" label="Goju-ryu" options={ GojuRyuDropdownOptions }/>            
+            <DropDown className="nav-text-white" label="Goju-ryu" options={ GojuRyuDropdownOptions }/>  
+
+            
+            <Link
+                className="m-3 transition nav-text-white"
+                prefetch={true}
+                href="/kontakt/">
+                    Kontakt
+            </Link>          
         </nav>
         </div>
     )
