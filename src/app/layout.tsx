@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Białostocki Klub Karate Goju-ryu - Dojo \"Hasu\"",
-  description: "Dołącz do naszego klubu tradycyjnego karate goju-ryu w Księżynie! Sztuki walki dla dzieci, młodzieży i dorosłych!",
-  keywords: "karate księżyno, karate białystok, goju-ryu białystok, tradycyjne karate białystok, karate juchnowiec kościelny, sztuki walki białystok, sztuki walki horodniany",
+  description: "Białostocki Klub Karate Goju-ryu - Dojo \"Hasu\"! Dołącz do nas i ćwicz tradycyjne karate prosto z Okinawy!",
+  keywords: "karate nowe miasto, karate księżyno, karate białystok, goju-ryu białystok, tradycyjne karate białystok, karate juchnowiec kościelny, sztuki walki białystok, sztuki walki horodniany",
   robots: "index, follow"
 };
 
