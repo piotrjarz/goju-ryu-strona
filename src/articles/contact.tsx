@@ -4,7 +4,8 @@ import Image from "next/image"
 export default function Contact_Art(){
     return(
         <main className="p-4">
-            <h1 className="text-2xl text-center">{contact_info.message}</h1>
+            <h1 className="text-3xl text-center font-semibold">Białostocki Klub Karate Goju-ryu - Dojo Hasu</h1>
+            <h2 className="text-2xl text-center">{contact_info.message}</h2>
             <div className="mx-auto max-w-6xl p-5 text-lg">
                 <p className="text-left"><b>{contact_info.company}</b></p>
                 <p className="text-left"><b>Telefon</b>: {contact_info.phone}</p>

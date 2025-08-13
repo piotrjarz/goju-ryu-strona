@@ -3,7 +3,7 @@ import { DropdownOption } from "../types/dropdown_option";
 export const GojuRyuDropdownOptions : DropdownOption[] = 
 [
     { label: "O stylu", href: "/goju-ryu" },
-    { label: "Kata", href: "/goju-ryu/kata" },
+    { label: "Kata w karate Goju-ryu", href: "/goju-ryu/kata" },
     { label: "Sandangi", href: "/goju-ryu/sandangi" },
     { label: "TOGKF Polska", href: "https://togkf-polska.pl/", target: "_blank" },
 ]

@@ -22,7 +22,7 @@ export default function Home_Art(){
                 <p className="p-3 text-lg text-center md:text-justify">
                 Jesteśmy częścią organizacji Traditional Okinawan Goju-ryu Karate-do Federation (TOGKF), która kultywuje autentyczną wartość i techniki okinawskiego karate.
                 <br />
-                Ćwiczymy w Białymstoku i okolicach!
+                Ćwiczymy karate w Białymstoku i okolicach!
                 <br />
                 Niezależnie od wieku czy poziomu zaawansowania – znajdziesz tu miejsce dla siebie.
                 </p>
@@ -45,7 +45,7 @@ export default function Home_Art(){
                     <p className="p-3 text-lg text-center md:text-justify">
                         Karate to więcej niż sztuka walki. To droga, która uczy pokory, szacunku do innych, ale także pewności siebie.
                         <br />
-                        W naszym klubie trenujemy według oryginalnych zasad przekazywanych przez mistrzów z Okinawy.
+                        W naszym klubie w Białymstoku trenujemy według oryginalnych zasad przekazywanych przez mistrzów z Okinawy.
                         <br />
                         Dołącz do społeczności, która ćwiczy nie tylko ciało, ale też i ducha.
                     </p>
