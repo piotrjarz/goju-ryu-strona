@@ -32,6 +32,12 @@ export default function Header(){
                         <nav className="flex flex-col space-y-2 text-left">
                             <Link className="nav-text-white" href='/' onClick={() => setMenuOpen(false)}>Strona główna</Link>
 
+
+                            <Link 
+                            className="nav-text-white" 
+                            href='/aktualnosci' 
+                            onClick={() => setMenuOpen(false)}>Aktualności</Link>
+
                             <DropDown 
                                 label="Klub"
                                 options={AboutClubDropdownOptions}
@@ -47,9 +53,6 @@ export default function Header(){
                             </Link>
 
                             <Link className="nav-text-white" href='/treningi' onClick={() => setMenuOpen(false)}>Treningi</Link>
-
-                            <Link className="nav-text-white" href="https://togkf-polska.pl/?page_id=1301" target="_blank" onClick={() => setMenuOpen(false)}>Egzaminy</Link>
-
 
 
                             <DropDown 

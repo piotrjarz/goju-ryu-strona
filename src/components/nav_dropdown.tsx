@@ -38,7 +38,7 @@ export default function DropDown(
     }, []);
 
     return(
-        <div ref={dropdownRef} className="relative inline-block text-left md:m-1">
+        <div ref={dropdownRef} className="relative inline-block text-left md:my-1 md:mx-1">
             <button 
                 onClick={() => setOpen(!open)}
                 className={`md:py-2 rounded transition ${className}`}>

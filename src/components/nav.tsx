@@ -13,24 +13,18 @@ export default function Nav(){
                 href="/">Strona główna
             </Link>
 
-            {/* <Link 
+            <Link
                 className="m-3 transition nav-text-white"
                 prefetch={true}
-                href="/o-nas">O nas
-            </Link> */}
+                href="/aktualnosci"
+            >Aktualności
+            </Link>
+
             <DropDown 
                 label="Klub"
                 options={AboutClubDropdownOptions}
                 className="nav-text-white"
             />
-
-{/* 
-            <Link 
-                className="m-3 transition nav-text-white"
-                prefetch={true}
-                href="/kontakt">Kontakt
-            </Link> */}
-
 
             <Link 
                 className="m-3 transition nav-text-white"
@@ -42,13 +36,6 @@ export default function Nav(){
                 className="m-3 transition nav-text-white"
                 prefetch={true}
                 href="/pytania">Pytania
-            </Link>
-
-            <Link
-                className="m-3 transition nav-text-white"
-                prefetch={true}
-                target="_blank"
-                href="https://togkf-polska.pl/?page_id=1301">Egzaminy
             </Link>
 
             <DropDown className="nav-text-white" label="Goju-ryu" options={ GojuRyuDropdownOptions }/>  
