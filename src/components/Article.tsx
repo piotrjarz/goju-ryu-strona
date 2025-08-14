@@ -8,7 +8,6 @@ export default function Article(
     headers,
     content,
     images,
-    links,
     tags
 } : NewsArticle){
 return (
@@ -28,6 +27,7 @@ return (
           key={`header-${idx}`}
           src={img.url}
           alt={title}
+          loading="lazy"
           className="w-full h-auto max-w-sm mx-auto rounded-lg mb-6 object-cover"
         />
       ))}
@@ -51,6 +51,7 @@ return (
                 key={`mid-${index}-${idx}`}
                 src={img.url}
                 alt={`${header}-${idx}`}
+                loading="lazy"
                 className="w-full h-auto max-w-sm mx-auto rounded-lg mb-6 object-cover"
               />
             ))}
@@ -68,6 +69,7 @@ return (
           key={`footer-${idx}`}
           src={img.url}
           alt={`footer-${idx}`}
+          loading="lazy"
           className="w-full h-auto max-w-sm mx-auto rounded-lg mb-4 object-cover"
         />
       ))}
