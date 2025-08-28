@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
-import Header from "@/components/Header";
 import MottoImage from "@/components/MottoImage";
 import Logo from "@/components/Logo";
+import Nav from "@/components/nav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased m-0 p-0`}
       >
         <Logo/>
-        <Header/>
+        <Nav/>
           <MottoImage/>
           <div className="items-center justify-items-center min-h-screen site-bg-white m-0 p-0 text-lg">
             {children}  

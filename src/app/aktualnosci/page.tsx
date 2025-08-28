@@ -8,7 +8,7 @@ export default function AllNews(){
                 <article>
                     <h2 className="text-3xl text-center font-semibold header-text-blue">Aktualności</h2>
                     <div className="w-full overflow-x-auto mx-auto my-5">
-                        {allNews.map(news => (
+                        {allNews.reverse().map(news => (
                                 <Article 
                                 title={news.title}
                                 content={news.content}

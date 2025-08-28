@@ -31,6 +31,35 @@ const allNews : NewsArticle[] = [
                 alt: "Logo Białostockiego Klubu Karate Goju-ryu w Białymstoku - Dojo Hasu."
             }
         ]
+    },
+    {
+        id: "sala-2025-08-28",
+        title: "Zapisy na pierwszy trening ruszyły!",
+        date: "2025-08-28",
+        headers: [
+            "Mamy to!",
+            "Gdzie i kiedy?",
+            "Jak się zapisać?"
+        ],
+        content: [
+            "Zapisy na pierwszy trening karate goju-ryu w Dojo Hasu ruszyły! Serdecznie zachęcamy do spróbowania!",
+            "Pierwszy próbny trening odbędzie się w <b>Szkole Podstawowej w Turośni Kościelnej</b> dnia <b>29.09.2025</b> o godzinie <b>18:00</b>!",
+            "Aby się zapisać kliknij w zakładkę formularz znajdującą się w menu. Zostaniesz przekierowany do formularza google. Jego wypełnienie skutkuje zapisaniem się na pierwszy darmowy trening próbny karate goju ryu!"
+        ],
+        tags: [
+            "Karate Białystok",
+            "Karate Turośń Kościelna",
+            "Goju-ryu Białystok",
+            "TOGKF Białystok"
+        ],
+        images: [
+            { 
+                position: "mid-2", 
+                url: "/images/logo_karate.webp",
+                alt: "Logo Białostockiego Klubu Karate Goju-ryu w Białymstoku - Dojo Hasu."
+            }
+        ]
+
     }
 ]
 

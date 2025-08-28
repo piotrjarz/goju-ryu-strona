@@ -17,7 +17,7 @@ export default function Home_Art(){
                 height={640}
                 width={427}
                 loading="lazy"
-                alt="Karate dojo"
+                alt="Dziewczyna w karate-gi z pomarańczowym pasem robiąca tornado kick w dojo karate"
                 />
                 <p className="p-3 text-lg text-center md:text-justify">
                 Jesteśmy częścią organizacji Traditional Okinawan Goju-ryu Karate-do Federation (TOGKF), która kultywuje autentyczną wartość i techniki okinawskiego karate.
@@ -40,7 +40,7 @@ export default function Home_Art(){
                         height={640}
                         width={427}
                         loading="lazy"
-                        alt="Karate mistrz"
+                        alt="Dwie dziewczyny w karate-gi jedna z niebieskim, a druga z czerwonym pasem. Jedna wykonuje blok ko age uke, a druga uderza oi tsuki jodan. Obie są w pozycji zenkutsu dachi."
                     />
                     <p className="p-3 text-lg text-center md:text-justify">
                         Karate to więcej niż sztuka walki. To droga, która uczy pokory, szacunku do innych, ale także pewności siebie.
@@ -58,7 +58,7 @@ export default function Home_Art(){
                         loading="lazy"
                         width={640}
                         height={427}
-                        alt="Karatecy"
+                        alt="Sensei Morio Higaonna, wykonujący morote ko uke z kata Sanseru. Ma na sobie białe karate-gi oraz czarny pas w karate goju-ryu."
                     />
                     <div>
                         <h1 className="text-3xl header-text-blue font-bold">

@@ -13,7 +13,7 @@ export default function Article(
 return (
   <article
     key={id}
-    className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-white rounded-xl shadow-md"
+    className="max-w-4xl mx-auto my-6 px-4 sm:px-6 lg:px-8 py-6 bg-white rounded-xl shadow-md"
   >
     {/* Tytuł */}
     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-4">{title}</h2>
@@ -40,7 +40,9 @@ return (
         <section key={index} className="text-center sm:text-left">
           <h3 className="text-xl sm:text-2xl font-semibold mb-2">{header}</h3>
           <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
-            {content[index] || ""}
+            <span dangerouslySetInnerHTML={{__html: content[index] || ""}}>
+              
+            </span>
           </p>
 
           {/* Zdjęcia mid-X (np. mid-0 po pierwszej sekcji) */}
