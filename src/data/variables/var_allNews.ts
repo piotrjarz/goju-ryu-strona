@@ -43,7 +43,7 @@ const allNews : NewsArticle[] = [
         ],
         content: [
             "Zapisy na pierwszy trening karate goju-ryu w Dojo Hasu ruszyły! Serdecznie zachęcamy do spróbowania!",
-            "Pierwszy próbny trening odbędzie się w <b>Szkole Podstawowej w Turośni Kościelnej</b> dnia <b>29.09.2025</b> o godzinie <b>18:00</b>!",
+            "Pierwszy próbny trening wstępnie odbędzie się w <b>Szkole Podstawowej w Turośni Kościelnej</b> dnia <b>15.09.2025</b> o godzinie <b>18:00</b>! Dokładne informacje  o treningach podamy wkrótce na stronie oraz w mediach społecznościowych.",
             "Aby się zapisać kliknij w zakładkę formularz znajdującą się w menu. Zostaniesz przekierowany do formularza google. Jego wypełnienie skutkuje zapisaniem się na pierwszy darmowy trening próbny karate goju ryu!"
         ],
         tags: [
