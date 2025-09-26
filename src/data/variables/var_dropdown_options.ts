@@ -12,5 +12,5 @@ export const AboutClubDropdownOptions : DropdownOption[] =
 [
     { label: "O nas", href: "/o-nas"},
     { label: "Do pobrania", href: "/do-pobrania"},
-    { label: "Regulamin", href: "/regulamin" },
+    { label: "Regulamin", href: "https://mmgbgbksvr5lc1zd.public.blob.vercel-storage.com/dokumenty/Reguilamin%20Hasu.pdf" },
 ]

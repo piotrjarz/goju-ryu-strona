@@ -25,7 +25,7 @@ export default function Accordion({ title, children }: AccordionProps) {
       </button>
 
       {isOpen && (
-        <div className="px-4 pb-4 text-sm md:text-base text-gray-600">
+        <div className="px-4 pb-4 text-sm md:text-base text-gray-800 bg-white rounded-b-2xl">
           {children}
         </div>
       )}
