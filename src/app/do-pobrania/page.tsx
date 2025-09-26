@@ -7,21 +7,34 @@ export default function FilesToDownload() {
             Pliki do pobrania
           </h2>
 
-          <div className="space-y-4">
-            {[
-              "Regulamin klubu",
-              "Deklaracja członkowska",
-              "Deklaracja RODO",
-              "Standardy ochrony małoletnich",
-            ].map((file, idx) => (
-              <a
-                key={idx}
-                href="#"
-                className="block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-800 shadow-sm hover:bg-gray-100 transition"
-              >
-                {file}
-              </a>
-            ))}
+          <div className="space-y-4 mt-6">
+            <a
+              href="https://mmgbgbksvr5lc1zd.public.blob.vercel-storage.com/dokumenty/Reguilamin%20Hasu.pdf"
+              target="_blank"
+              className="block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-800 shadow-sm hover:bg-gray-100 transition"
+            >
+              Regulamin Klubu
+            </a>
+          </div>
+
+          <div className="space-y-4 mt-6">
+            <a
+              href="https://mmgbgbksvr5lc1zd.public.blob.vercel-storage.com/dokumenty/HASU%20umowa%20o%20zaj%C4%99cia.pdf"
+              target="_blank"
+              className="block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-800 shadow-sm hover:bg-gray-100 transition"
+            >
+              Umowa o zajęcia
+            </a>
+          </div>
+
+          <div className="space-y-4 mt-6">
+            <a
+              href="https://mmgbgbksvr5lc1zd.public.blob.vercel-storage.com/dokumenty/Standardy%20Ochrony%20Ma%C5%82oletnich%20w%20Bia%C5%82ostockim%20Klubie%20Karate%20Goju.pdf"
+              target="_blank"
+              className="block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-800 shadow-sm hover:bg-gray-100 transition"
+            >
+              Standardy ochrony małoletnich
+            </a>
           </div>
         </article>
       </section>

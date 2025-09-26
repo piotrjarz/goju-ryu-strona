@@ -7,7 +7,7 @@ export default function FAQ(){
 
             <div className="my-5">
                 <Accordion title="Gdzie i kiedy odbywają się treningi?">
-                    Na razie jeszcze tego nie ustaliliśmy. Prosimy o cierpliwość :)
+                    Treningi odbywają się w Szkole Podstawowej w Juchnowcu Górnym, ul. Szkolna 5.<br/>W każdy wtorek i czwartek o godzinie 18:30-19:15 w małej sali gimnastycznej.
                 </Accordion>
 
                 <Accordion title="Co muszę zabrać na pierwszy trening?">
@@ -19,7 +19,7 @@ export default function FAQ(){
                 </Accordion>
                 
                 <Accordion title="Jaka jest cena uczestnictwa?">
-                    Na razie jeszcze tego nie ustaliliśmy. Prosimy o cierpliwość :)
+                    Cena za miesiąc treningów to <b>140zł</b>. W cenie zawarta jest opłata za członkostwo w organizacji TOGKF Polska (100zł rocznie) - co uprawnia do brania udziału w seminariach i zawodach sportowych.
                 </Accordion>
 
                 <Accordion title="Czy jeśli miałem gdzieś indziej jakiś stopień to mi go uznacie?">

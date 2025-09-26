@@ -33,38 +33,6 @@ const allNews : NewsArticle[] = [
         ]
     },
     {
-        id: "sala-2025-09-10",
-        title: "Zapisy na pierwszy trening ruszyły!",
-        date: "2025-09-10",
-        headers: [
-            "Mamy to!",
-            "Gdzie i kiedy?",
-            "Jak się zapisać?",
-            "Co zabrać na trening?"
-        ],
-        content: [
-            "Zapisy na pierwszy trening karate goju-ryu w Dojo Hasu ruszyły! Serdecznie zachęcamy do spróbowania!",
-            "Pierwszy próbny trening odbędzie się w <b>Szkole Podstawowej w Turośni Kościelnej</b> dnia <b>23.09.2025</b> (wtorek) o godzinie <b>18:00</b>! Dokładne informacje  o treningach podamy wkrótce na stronie oraz w mediach społecznościowych.",
-            "Aby się zapisać kliknij w zakładkę formularz znajdującą się w menu. Zostaniesz przekierowany do formularza google. Jego wypełnienie skutkuje zapisaniem się na pierwszy darmowy trening próbny karate goju ryu!",
-            "Na trening zabierz ze sobą wygodny strój sportowy (np. dres, legginsy, koszulkę) oraz wodę. Nie potrzebujesz nic więcej! Pamiętaj też o dobrym humorze i chęci do nauki!"
-        ],
-        tags: [
-            "Karate Białystok",
-            "Karate Turośń Kościelna",
-            "Goju-ryu Białystok",
-            "TOGKF Białystok",
-            "Karate dla dzieci"
-        ],
-        images: [
-            { 
-                position: "mid-3", 
-                url: "/images/logo_karate.webp",
-                alt: "Logo Białostockiego Klubu Karate Goju-ryu w Białymstoku - Dojo Hasu."
-            }
-        ]
-
-    },
-    {
         id: "family-2025-09-13",
         title: "Dlaczego warto uprawiać karate z rodziną?",
         date: "2025-09-13",
