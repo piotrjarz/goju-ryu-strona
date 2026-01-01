@@ -1,4 +1,4 @@
-import { NewsArticle } from "../types/NewsArticle";
+// import { NewsArticle } from "../types/NewsArticle";
 
 // const allNews : NewsArticle[] = [
 //     {
