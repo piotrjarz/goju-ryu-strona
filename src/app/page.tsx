@@ -10,8 +10,8 @@ export default function Home() {
       Treningi - czas start!
     </h1>
     <p className="font-semibold text-xl text-justify">
-      Zaczynamy - <span className="text-red-500">02.10.2025 w Szkole Podstawowej w Juchnowcu Górnym!</span> - ul. Szkolna 5, Juchnowiec Górny<br/>
-      Godzina <span className="text-red-500">18:30 do 19:15 - mała sala gimnastyczna.</span><br/>
+      Zaczynamy - <span className="text-red-500">we wrześniu 2026 - ul. Szkolna 7, Szkoła Podstawowa w Księżynie</span><br/>
+      Godzina <span className="text-red-500">17:00 do 18:00 - sala gimnastyczna.</span><br/>
       Cena podstawowa - <span className="text-red-500">140zł za miesiąc</span>.<br/>
       Możliwość zniżek dla rodzin.<br/>
       Zapraszamy wszystkich chętnych do spróbowania swoich sił w karate Goju-ryu!<br/>

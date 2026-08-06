@@ -7,7 +7,7 @@ export default function FAQ(){
 
             <div className="my-5">
                 <Accordion title="Gdzie i kiedy odbywają się treningi?">
-                    Treningi odbywają się w Szkole Podstawowej w Juchnowcu Górnym, ul. Szkolna 5.<br/>W każdy wtorek i czwartek o godzinie 18:30-19:15 w małej sali gimnastycznej.
+                    Treningi odbywają się w Szkole Podstawowej w Księżynie, ul. Szkolna 7.<br/>W każdy poniedziałek i piątek o godzinie 17:00-18:00 na sali gimnastycznej.
                 </Accordion>
 
                 <Accordion title="Co muszę zabrać na pierwszy trening?">

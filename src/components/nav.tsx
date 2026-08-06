@@ -122,7 +122,7 @@ export default function Nav(){
             <Link 
             className="hover:text-blue-400 transition"
             href="/kontakt" onClick={() => setIsOpen(false)}>
-              Pytania
+              Kontakt
             </Link>
           </li>
         </ul>
